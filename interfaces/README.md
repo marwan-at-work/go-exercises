@@ -1,6 +1,6 @@
 # Interfaces
 
-Interfaces in Go let you define behavior as types. This makes packages pluggable. 
+Interfaces in Go let you define behavior as types. This makes packages pluggable. If you are unfamiliar with interfaces check out [this example](https://gobyexample.com/interfaces) to see how they're written.
 
 Create a function that implements the `io.Writer` method that will do two things: 
 
