@@ -6,9 +6,11 @@ I encourage you to go through the exercise first, try it yourself, then watch th
 
 Write a reddit client that will ping https://reddit.com/r/{topic-name}.json
 
-where {topic-name} is any given topic from the command line. 
+where {topic-name} is any given topic from the command line.
 
-1. Create a struct type that resembles the JSON data coming from the request. You don't need to create every field, just the ones you create about: i.e. `children` and `data`.
+For example, `go run main.go cats` should then ping `https://reddit.com/r/cats.json`.
+
+1. Create a struct type that resembles the JSON data coming from the request. You don't need to create every field, just the ones you care about: i.e. `children` and `data`.
 
 2. Unmarshal the json in the struct, and print out every `topic` and `url` for that topic in the sub reddit. 
 
