@@ -2,7 +2,7 @@
 
 Interfaces in Go let you define behavior as types. This makes packages pluggable. If you are unfamiliar with interfaces check out [this example](https://gobyexample.com/interfaces) to see how they're written.
 
-Create a function that implements the `io.Writer` interface that will do two things: 
+Create a function that implements the `io.Writer` interface. The implmenetation should do two things: 
 
 1. It will write any incoming bytes to a logs.txt file on disk. 
 
